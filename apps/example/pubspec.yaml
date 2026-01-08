@@ -1,0 +1,56 @@
+name: example
+description: "A new Flutter project"
+publish_to: 'none'
+resolution: workspace
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Web Compatibility
+  flutter_web_plugins:
+    sdk: flutter
+  universal_url_strategy:
+
+  # Localization
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+
+  # Dependency Injection
+  get_it: ^9.2.0
+  injectable: ^2.7.1+2
+
+  # State
+  flutter_mvc:
+
+  # Navigation
+  go_router: ^17.0.1
+  freezed_annotation: ^3.1.0
+  json_annotation: ^4.9.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  # Code Generation
+  build_runner: ^2.10.4
+
+  # Dependency Injection
+  injectable_generator: ^2.9.1
+
+  # Data
+  freezed: ^3.2.3
+  json_serializable: ^6.11.2
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  generate: true # Localization
+  uses-material-design: true

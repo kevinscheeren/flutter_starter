@@ -1,0 +1,15 @@
+name: flutter_start
+description: melos monorepo as a starting point for new flutter applications. Including custom MVC state management & some nice to have utilities.
+publish_to: none
+environment:
+  sdk: ^3.9.2
+
+dev_dependencies:
+  melos: ^7.2.0
+
+workspace:
+  # core
+  - core/flutter_mvc
+  - core/universal_url_strategy
+  # apps
+  - apps/example

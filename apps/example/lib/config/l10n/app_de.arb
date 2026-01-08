@@ -1,0 +1,43 @@
+{
+  "@@locale": "de",
+  "appName": "Example",
+  "@appName": {
+    "description": "The name of the app"
+  },
+    "errorGenericTitle": "Fehler",
+  "@errorGenericTitle": {
+    "description": "The generic error title"
+  },
+  "errorGenericMessage": "Uups! Es ist etwas schiefgelaufen!",
+  "@errorGenericMessage": {
+    "description": "The generic error message"
+  },
+  "errorStartingApp": "Beim Starten der App is ein Fehler aufgetreten.",
+  "@errorStartingApp": {
+    "description": "The error message when the app fails to start"
+  },
+  "retry": "Erneut Versuchen",
+  "@retry": {
+    "description": "The text for the retry button"
+  },
+  "notFoundTitle": "404",
+  "@notFoundTitle": {
+    "description": "Title shown on the 404 page"
+  },
+  "notFoundMessage": "Seite konnte nicht gefunden werden",
+  "@notFoundMessage": {
+    "description": "Message shown on the 404 page"
+  },
+  "notFoundGoHome": "Zur Startseite",
+  "@notFoundGoHome": {
+    "description": "Text for the button that takes users back to home page"
+  },
+  "counter": "Du hast den Knopf so oft gedrückt:",
+  "@counter": {
+    "description": "Text for the counter"
+  },
+  "success": "Erflogreich",
+  "@success": {
+    "description": "Text for the success message"
+  }
+}

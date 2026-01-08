@@ -1,0 +1,23 @@
+name: universal_url_strategy
+description: "Package to use flutter_web_plugins URL Strategy on non Web platforms by stubbing the library"
+version: 0.0.1
+homepage:
+resolution: workspace
+
+environment:
+  sdk: ^3.10.4
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
